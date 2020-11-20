@@ -19,18 +19,18 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
-    QString Spareinput;
-    QStringList SpareList;
-    int n=0;
+    QString Spareinput;  //headline name
+    QStringList SpareList; //list of headlines
+    int n=0; //headline index
 
 
 private slots:
-    void Readin();
-    void print();
+    void Readin(); //function for reading file contence to display
+    void print(); // function for displaying contence on ui
 
 private:
-    Ui::MainWindow *ui;
-    QTimer *timer;
+    Ui::MainWindow *ui; //ui object
+    QTimer *timer; //timer for slot timing
 
 };
 
