@@ -9,9 +9,9 @@ Project Goals:
 
 
 Goals Achieved so far:
-*Parse News RSS for Headlines.
-*Save Headlines into an accessible file format.
-*Display Headlines one by one.
+Markup: *Parse News RSS for Headlines.
+        *Save Headlines into an accessible file format.
+        *Display Headlines one by one.
 
 Goals in-progress:
 *Auto-run on boot.
