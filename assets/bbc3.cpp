@@ -13,8 +13,10 @@ int main(void){
 	int linesize;
 	int remainingsize = 0;
 	ifstream myfile("example.txt");
+//	ifstream myfile("../home/pi/NewsRSS/assets/example.txt");
+//	ofstream writefile("../home/pi/NewsRSS/assets/output.txt");
 	ofstream writefile("output.txt");
-//	writefile.open("output.txt",ios::out,ios::binary);
+///	writefile.open("output.txt",ios::out,ios::binary);
 
 	if (writefile.is_open()){
 	if (myfile.is_open()){
