@@ -1,13 +1,10 @@
 #! /bin/bash
 
 echo "start"
-sudo startx &
-sleep 10
-curl http://feeds.bbci.co.uk/news/rss.xml >example.txt
-</home/pi/Newsroom>./parsetest
+cd /home/pi/NewsRSS/assets/
+Curl http://feeds.bbci.co.uk/news/rss.xml > /home/pi/NewsRSS/assets/example.txt
+cd /home/pi/NewsRSS/assets/
+./parsetest
 echo "latest rss"
-#</home/pi/QT/build-NewsRSS-Desktop-Release>sudo ./NewsRSS
-./NewsRSS
-sleep 20
 echo "done"
 
